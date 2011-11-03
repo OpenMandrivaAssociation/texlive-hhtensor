@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/hhtensor
+# catalog-date 2006-12-17 23:49:42 +0100
+# catalog-license lppl
+# catalog-version 0.6
 Name:		texlive-hhtensor
 Version:	0.6
 Release:	1
@@ -45,6 +51,7 @@ underlined, and bold).
 %doc %{_texmfdistdir}/source/latex/hhtensor/Makefile
 %doc %{_texmfdistdir}/source/latex/hhtensor/hhtensor.dtx
 %doc %{_texmfdistdir}/source/latex/hhtensor/hhtensor.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ underlined, and bold).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
