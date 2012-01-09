@@ -1,12 +1,12 @@
-# revision 15878
+# revision 24981
 # category Package
 # catalog-ctan /macros/latex/contrib/hhtensor
-# catalog-date 2006-12-17 23:49:42 +0100
+# catalog-date 2011-12-29 22:44:25 +0100
 # catalog-license lppl
-# catalog-version 0.6
+# catalog-version 0.61
 Name:		texlive-hhtensor
-Version:	0.6
-Release:	2
+Version:	0.61
+Release:	1
 Summary:	Print vectors, matrices, and tensors
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hhtensor
@@ -35,10 +35,12 @@ underlined, and bold).
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/hhtensor/hhtensor.sty
+%doc %{_texmfdistdir}/doc/latex/hhtensor/ChangeLog
+%doc %{_texmfdistdir}/doc/latex/hhtensor/Makefile
 %doc %{_texmfdistdir}/doc/latex/hhtensor/README
+%doc %{_texmfdistdir}/doc/latex/hhtensor/getversion.tex
 %doc %{_texmfdistdir}/doc/latex/hhtensor/hhtensor.pdf
 #- source
-%doc %{_texmfdistdir}/source/latex/hhtensor/Makefile
 %doc %{_texmfdistdir}/source/latex/hhtensor/hhtensor.dtx
 %doc %{_texmfdistdir}/source/latex/hhtensor/hhtensor.ins
 
