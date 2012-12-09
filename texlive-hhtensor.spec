@@ -53,3 +53,21 @@ underlined, and bold).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.61-1
++ Revision: 758892
+- Update to latest upstream release
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.6-2
++ Revision: 752561
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.6-1
++ Revision: 718618
+- texlive-hhtensor
+- texlive-hhtensor
+- texlive-hhtensor
+- texlive-hhtensor
+
