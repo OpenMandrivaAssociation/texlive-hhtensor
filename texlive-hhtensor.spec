@@ -6,7 +6,7 @@
 # catalog-version 0.61
 Name:		texlive-hhtensor
 Version:	0.61
-Release:	5
+Release:	6
 Summary:	Print vectors, matrices, and tensors
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hhtensor
