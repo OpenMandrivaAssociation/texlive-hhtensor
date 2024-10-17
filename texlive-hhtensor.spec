@@ -3,7 +3,7 @@ Version:	54080
 Release:	2
 Summary:	Print vectors, matrices, and tensors
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hhtensor
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/hhtensor
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hhtensor.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hhtensor.doc.r%{version}.tar.xz
